@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D84E3"
+    android:backgroundTint="#570F0F"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="129dp"
+        android:layout_height="55dp"
+        android:text="    Olá Mundo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <Button
+        android:id="@+id/button_action"
+        android:layout_width="145dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#39C851"
+        android:shadowColor="#EAD8D8"
+        android:text="Clique aqui!!"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/purple_200"
+        android:textColorHint="#E8E1E1"
+        android:textColorLink="#BDB3B3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_title"
+        app:rippleColor="#E7EAE1"
+        app:strokeColor="#FAFAFA"
+        app:strokeWidth="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
