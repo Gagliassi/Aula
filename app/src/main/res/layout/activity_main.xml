@@ -7,20 +7,21 @@
     android:background="#0D84E3"
     android:backgroundTint="#570F0F"
     android:backgroundTintMode="add"
+    android:textAlignment="center"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/text_title"
-        android:layout_width="129dp"
-        android:layout_height="55dp"
+        android:layout_width="296dp"
+        android:layout_height="72dp"
         android:text="    Olá Mundo"
+        android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintVertical_bias="0.483" />
 
     <Button
         android:id="@+id/button_action"
